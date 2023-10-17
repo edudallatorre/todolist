@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TodolistApplication",
+            "request": "launch",
+            "mainClass": "TodolistApplication",
+            "projectName": "todolist"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TodolistApplication<todolist>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.edudallatorre.todolist.TodolistApplication",
+            "projectName": "todolist",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
